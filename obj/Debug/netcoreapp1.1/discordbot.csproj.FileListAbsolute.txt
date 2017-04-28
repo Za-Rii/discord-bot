@@ -1,0 +1,8 @@
+C:\Users\Zac\desktop\DiscordBot\bin\Debug\netcoreapp1.1\discordbot.deps.json
+C:\Users\Zac\desktop\DiscordBot\bin\Debug\netcoreapp1.1\discordbot.runtimeconfig.json
+C:\Users\Zac\desktop\DiscordBot\bin\Debug\netcoreapp1.1\discordbot.runtimeconfig.dev.json
+C:\Users\Zac\desktop\DiscordBot\bin\Debug\netcoreapp1.1\discordbot.dll
+C:\Users\Zac\desktop\DiscordBot\bin\Debug\netcoreapp1.1\discordbot.pdb
+C:\Users\Zac\desktop\DiscordBot\obj\Debug\netcoreapp1.1\discordbot.AssemblyInfo.cs
+C:\Users\Zac\desktop\DiscordBot\obj\Debug\netcoreapp1.1\discordbot.dll
+C:\Users\Zac\desktop\DiscordBot\obj\Debug\netcoreapp1.1\discordbot.pdb

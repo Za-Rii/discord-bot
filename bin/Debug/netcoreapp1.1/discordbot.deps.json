@@ -1,0 +1,197 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "8b1a3639d8d15df991a741ed8c3fd74e7009ee93"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "discordbot/1.0.0": {
+        "dependencies": {
+          "Discord.Net": "1.0.0-rc-00614",
+          "Discord.Net.WebSocket": "1.0.0-rc-00610"
+        },
+        "runtime": {
+          "discordbot.dll": {}
+        }
+      },
+      "discord.net/1.0.0-rc-00614": {
+        "dependencies": {
+          "Discord.Net.Commands": "1.0.0-rc-00614",
+          "Discord.Net.Core": "1.0.0-rc-00614",
+          "Discord.Net.Rest": "1.0.0-rc-00614",
+          "Discord.Net.Rpc": "1.0.0-rc-00614",
+          "Discord.Net.WebSocket": "1.0.0-rc-00610"
+        }
+      },
+      "discord.net.commands/1.0.0-rc-00614": {
+        "dependencies": {
+          "Discord.Net.Core": "1.0.0-rc-00614"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Discord.Net.Commands.dll": {}
+        }
+      },
+      "discord.net.core/1.0.0-rc-00614": {
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "System.Interactive.Async": "3.1.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Discord.Net.Core.dll": {}
+        }
+      },
+      "discord.net.rest/1.0.0-rc-00614": {
+        "dependencies": {
+          "Discord.Net.Core": "1.0.0-rc-00614"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Discord.Net.Rest.dll": {}
+        }
+      },
+      "discord.net.rpc/1.0.0-rc-00614": {
+        "dependencies": {
+          "Discord.Net.Core": "1.0.0-rc-00614",
+          "Discord.Net.Rest": "1.0.0-rc-00614",
+          "System.Net.WebSockets.Client": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Discord.Net.Rpc.dll": {}
+        }
+      },
+      "discord.net.websocket/1.0.0-rc-00610": {
+        "dependencies": {
+          "Discord.Net.Core": "1.0.0-rc-00614",
+          "Discord.Net.Rest": "1.0.0-rc-00614",
+          "System.Net.WebSockets.Client": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Discord.Net.WebSocket.dll": {}
+        }
+      },
+      "newtonsoft.json/9.0.1": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "system.interactive.async/3.1.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Interactive.Async.dll": {}
+        }
+      },
+      "system.net.websockets/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Net.WebSockets.dll": {}
+        }
+      },
+      "system.net.websockets.client/4.3.0": {
+        "dependencies": {
+          "System.Net.WebSockets": "4.3.0"
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Net.WebSockets.Client.dll": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Net.WebSockets.Client.dll": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "system.runtime.serialization.primitives/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "discordbot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "discord.net/1.0.0-rc-00614": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cd/fvhNbFC42pYLC7pfLTW3fzDY3xQtJ/3S7dZVlT4IdYjwAbHcC820rP+O22xiiDUcn06J4P8qQfbQzNd7o6A==",
+      "path": "discord.net/1.0.0-rc-00614",
+      "hashPath": "discord.net.1.0.0-rc-00614.nupkg.sha512"
+    },
+    "discord.net.commands/1.0.0-rc-00614": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PgY5P+LsNPLbcuzhsGgmurImyr3uYgzMVBGEPlHSnOBd4Z7s/ou0hTJpF+9vK6rd6D3eV5xKJjIaplMLtqHTOg==",
+      "path": "discord.net.commands/1.0.0-rc-00614",
+      "hashPath": "discord.net.commands.1.0.0-rc-00614.nupkg.sha512"
+    },
+    "discord.net.core/1.0.0-rc-00614": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TYoQUDDk5APSC8FsGvs8UswIOzjpD47Qo+ljfMyMtSkUr1cw59HkuLFuLkdv48WNNJTvPae7+8vc8yuk89bA3w==",
+      "path": "discord.net.core/1.0.0-rc-00614",
+      "hashPath": "discord.net.core.1.0.0-rc-00614.nupkg.sha512"
+    },
+    "discord.net.rest/1.0.0-rc-00614": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Er3aMXwAyhmGQW3Jn25qOE+EGeni227PIZYnPmASz6+f/Rh6HXvDSy0hs8iMRb9e1PG4D4h1ko5B4BDjusOUMg==",
+      "path": "discord.net.rest/1.0.0-rc-00614",
+      "hashPath": "discord.net.rest.1.0.0-rc-00614.nupkg.sha512"
+    },
+    "discord.net.rpc/1.0.0-rc-00614": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YkxPhA0TPpAKT/rimwpadHa6IC6g4HD8IKwf7a7TYii4HvAyeC4/c3sIhb+9OxBoc8zTNmfeHOBObBwC4MhpTg==",
+      "path": "discord.net.rpc/1.0.0-rc-00614",
+      "hashPath": "discord.net.rpc.1.0.0-rc-00614.nupkg.sha512"
+    },
+    "discord.net.websocket/1.0.0-rc-00610": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WsUFjjJji1vbTltYOUccWWYTy30HskJDB6B+N+Cxhx8xL5AyyRGCkJp5MgD4hYeoU/mGxq89z8u1TQ2C2dFX4w==",
+      "path": "discord.net.websocket/1.0.0-rc-00610",
+      "hashPath": "discord.net.websocket.1.0.0-rc-00610.nupkg.sha512"
+    },
+    "newtonsoft.json/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "path": "newtonsoft.json/9.0.1",
+      "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
+    },
+    "system.interactive.async/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uvyDO6bJ6OMA7774OwX5RtcSpZJJ1wU22pD64zY8v4sg6UHO/IUQXNU0kn8E9QEGRiex+x92Vy5+vTNphut+rg==",
+      "path": "system.interactive.async/3.1.0",
+      "hashPath": "system.interactive.async.3.1.0.nupkg.sha512"
+    },
+    "system.net.websockets/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ar/K6rtyeK2hKLYvcJX0fCtIzFZg7YGcnpTOGl0FNDGypc5j15njBJEyJgaGDWkDwpdf5gICiOAclOy8RNlxjg==",
+      "path": "system.net.websockets/4.3.0",
+      "hashPath": "system.net.websockets.4.3.0.nupkg.sha512"
+    },
+    "system.net.websockets.client/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QjcP33TONz6wS5+3B4JKHXxQp9b5sexHH/eGTBwG2ZhlaThGvZGm3mMEHyJB6rrLsSah3h1Gc/OkJ162iavkjA==",
+      "path": "system.net.websockets.client/4.3.0",
+      "hashPath": "system.net.websockets.client.4.3.0.nupkg.sha512"
+    },
+    "system.runtime.serialization.primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5Lh9BLdlZhGb6YR/46znbF3WmM2jL1KyybW9f8ptgC+nGpKpM42fMN+T/hmTzshb4pnOa0Tzm1G5a9xYRkIGeg==",
+      "path": "system.runtime.serialization.primitives/4.3.0",
+      "hashPath": "system.runtime.serialization.primitives.4.3.0.nupkg.sha512"
+    }
+  }
+}
